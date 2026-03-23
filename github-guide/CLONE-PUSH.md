@@ -40,15 +40,15 @@ git@github.com:username/repository.git
 # 替换为你想克隆的仓库地址
 git clone git@github.com:username/repository.git
 
-# 例如：克隆 skills-starter 项目
-git clone git@github.com:cat-xierluo/skills-starter.git
+# 例如：克隆 skill-starter 项目
+git clone git@github.com:cat-xierluo/skill-starter.git
 ```
 
 Clone 完成后，项目会出现在当前目录下的一个新文件夹里：
 
 ```
 当前目录/
-└── skills-starter/   # 新文件夹
+└── skill-starter/   # 新文件夹
     ├── README.md
     ├── SKILL-DEV-GUIDE.md
     └── ...
@@ -57,7 +57,7 @@ Clone 完成后，项目会出现在当前目录下的一个新文件夹里：
 ### 进入项目目录
 
 ```bash
-cd skills-starter          # 进入项目目录
+cd skill-starter          # 进入项目目录
 git status                  # 查看当前状态
 ```
 

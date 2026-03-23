@@ -11,8 +11,8 @@ Skills Starter 是一个 Skill 研发启动模板，帮助开发者快速开始 
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/skills-starter.git
-cd skills-starter
+git clone https://github.com/your-username/skill-starter.git
+cd skill-starter
 ```
 
 ### 2. 选择你的路径
@@ -37,7 +37,7 @@ cd skills/your-new-skill
 ## 📁 项目结构
 
 ```
-skills-starter/
+skill-starter/
 ├── AGENTS.md                    # 项目规范
 ├── CLAUDE.md                    # Claude 上下文
 ├── SKILL-DEV-GUIDE.md          # Skill 开发指南

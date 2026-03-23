@@ -1,4 +1,4 @@
-# Task Tracker - skills-starter vibe-coding-starter
+# Task Tracker - skill-starter vibe-coding-starter
 
 ## Active Tasks
 
@@ -19,4 +19,4 @@
 
 ## Branch: feature/vibe-coding-starter
 
-## Project: skills-starter
+## Project: skill-starter
