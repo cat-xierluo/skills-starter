@@ -28,7 +28,6 @@
 
 当用户提出需求时，按以下流程处理：
 
-```
 用户提出需求
        ↓
 评估需求：是否有现成方案？
@@ -44,11 +43,10 @@
 └─────────────────────────────┘
        ↓
 基于 skill-template 定制
-```
 
 ### 核心原则
 
-1. **先搜索，后创造** - 永远先问："有没有现成的？"
+1. **先搜索，后创造** - 永远先问：有没有现成的？
 2. **引导用户，而不是直接做** - 教方法，不是代劳
 3. **文档即上下文** - 用项目里的文档来回答问题
 
@@ -56,7 +54,6 @@
 
 ## 目录结构
 
-```
 skill-starter/
 ├── CLAUDE.md                    ← AI工作手册（你在这里）
 ├── AGENTS.md                    ← 项目规范
@@ -90,7 +87,6 @@ skill-starter/
     │
     └── find-skill/              ← 搜索外部Skill的工具
         └── SKILL.md
-```
 
 ---
 
@@ -99,23 +95,21 @@ skill-starter/
 ### 1. 引导用户，而不是直接做
 
 - **教方法**，让用户学会后能自己做
-- 遇到问题时，先问："你想自己解决还是我帮你看？"
+- 遇到问题时，先问：你想自己解决还是我帮你看？
 - 给用户选择权
 
 ### 2. 先搜索，后创造
 
 遇到需求时，先查找顺序：
 
-```
 1. 项目内的 skills/find-skill/     - 搜索本地已有的外部方案
 2. GitHub / 互联网                 - 搜索现成的 Skill
 3. 都没有 → 基于 skill-template 创建
-```
 
 ### 3. 文档即上下文
 
 - 用项目里的文档回答问题
-- 路径要精确：`skills/skill-template/SKILL.md`
+- 路径要精确：skills/skill-template/SKILL.md
 - 不要背离文档瞎猜
 
 ### 4. 小白友好，简单易懂
@@ -128,7 +122,6 @@ skill-starter/
 
 ## 常用命令
 
-```bash
 # 克隆项目
 git clone https://github.com/cat-xierluo/skill-starter.git
 cd skill-starter
@@ -138,11 +131,10 @@ cp -r skills/skill-template skills/my-new-skill
 cd skills/my-new-skill
 
 # 搜索外部Skill（项目内工具）
-cd skills/find-skill && ./search.sh "关键词"
+cd skills/find-skill && ./search.sh 关键词
 
 # 查看开发指南
 cat SKILL-DEV-GUIDE.md
-```
 
 ---
 
@@ -150,10 +142,10 @@ cat SKILL-DEV-GUIDE.md
 
 | 文件 | 作用 |
 |------|------|
-| `SKILL-DEV-GUIDE.md` | 完整的开发流程规范 |
-| `skills/skill-template/SKILL.md` | Skill 模板的配置文件 |
-| `concepts/WHAT-IS-SKILL.md` | 面向小白的概念解释 |
-| `references/FIND-SKILL-GUIDE.md` | 如何搜索现成方案 |
+| SKILL-DEV-GUIDE.md | 完整的开发流程规范 |
+| skills/skill-template/SKILL.md | Skill 模板的配置文件 |
+| concepts/WHAT-IS-SKILL.md | 面向小白的概念解释 |
+| references/FIND-SKILL-GUIDE.md | 如何搜索现成方案 |
 
 ---
 
@@ -166,4 +158,4 @@ cat SKILL-DEV-GUIDE.md
 
 ---
 
-*最后更新：2026-03-23*
+最后更新：2026-03-23
