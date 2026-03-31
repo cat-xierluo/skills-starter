@@ -30,7 +30,7 @@
 ### 2. Vercel Skills CLI（命令行）
 
 ```bash
-# 安装 Skills CLI（内置在 Node.js 环境）
+# 直接搜索
 npx skills find [关键词]
 
 # 安装 Skill
@@ -38,6 +38,12 @@ npx skills add <owner/repo@skill> -g -y
 ```
 
 适合在开发过程中快速搜索。
+
+如果你的工作流依赖独立 `find-skills` 项目，也可以先安装对应仓库：
+
+```bash
+npx skills add <仓库地址> --skill find-skills -g -y
+```
 
 ### 3. GitHub
 
@@ -168,4 +174,4 @@ A: 可以。参考 [SKILL-DEV-GUIDE.md](../SKILL-DEV-GUIDE.md)，发布到 GitHu
 
 - 搜索到一个合适的 Skill？→ 看它的 SKILL.md 了解如何使用
 - 决定自己开发？→ 阅读 [SKILL-DEV-GUIDE.md](../SKILL-DEV-GUIDE.md)
-- 基于模板快速开始？→ 参考 [skills/skill-template/](skills/skill-template/SKILL.md)
+- 基于模板快速开始？→ 参考 [skills/skill-template/](../skills/skill-template/SKILL.md)

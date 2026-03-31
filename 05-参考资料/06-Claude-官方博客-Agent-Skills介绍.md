@@ -1,6 +1,6 @@
 # Introducing Agent Skills | Claude 官方博客
 
-> 原文地址：https://www.anthropic.com/news/skills
+> 原文地址：https://claude.com/blog/skills
 > 发布日期：2025年10月16日
 > 更新：2025年12月18日（新增组织级管理和开放标准）
 
@@ -123,4 +123,10 @@ Skills 简化了管理会计和财务工作流。Claude 处理多个电子表格
 
 ---
 
-*翻译整理自 [Anthropic 官方博客 - Introducing Agent Skills](https://www.anthropic.com/news/skills)*
+## 延伸阅读
+
+- [Claude 官方 Skill 资料导航](./08-Claude-官方-Skill-资料导航.md)
+- [Claude Skill 最佳实践清单](./10-Claude-Skill-最佳实践清单.md)
+- [Claude Code 上下文与记忆](./09-Claude-Code-上下文与记忆.md)
+
+*翻译整理自 [Claude 官方博客 - Introducing Agent Skills](https://claude.com/blog/skills)*
