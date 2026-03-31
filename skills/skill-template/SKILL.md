@@ -31,6 +31,7 @@ description: |
 ```text
 skill-name/
 ├── SKILL.md
+├── LICENSE.txt
 ├── CHANGELOG.md
 ├── ROADMAP.md
 ├── TASKS.md
@@ -51,6 +52,7 @@ skill-name/
 - `references/`、`scripts/`、`assets/` 保持扁平
 - `.env.example` 放根目录，作为环境变量模板
 - `config.yaml.example` 等结构化配置模板放 `assets/`
+- 模板默认不替你预选许可证；复制后请自行新增 `LICENSE.txt`，并按需补 `license`
 - 协作文档直接放 Skill 根目录，不要把重要上下文只留在聊天里
 
 ## Frontmatter 规范
@@ -63,6 +65,7 @@ name: skill-name
 description: |
   本技能应在...时使用。
   不要用于：...。
+# license: MIT  # 示例值，按实际选择
 ---
 ```
 
@@ -85,6 +88,7 @@ cd skills/my-skill
 ### 2. 先改这些文件
 
 - `SKILL.md`
+- `LICENSE.txt`
 - `CHANGELOG.md`
 - `.env.example`
 - `assets/config.yaml.example`
@@ -161,6 +165,6 @@ max_items: 5
 
 ## 相关链接
 
-- [Skill 开发总指南](../../SKILL-DEV-GUIDE.md)
-- [Skill 编排指南](../../SKILL-ORCHESTRATION-GUIDE.md)
+- [Skill 开发总指南](../../04-创建Skill/SKILL-DEV-GUIDE.md)
+- [Skill 编排指南](../../04-创建Skill/SKILL-ORCHESTRATION-GUIDE.md)
 - [Skills.sh](https://skills.sh/)

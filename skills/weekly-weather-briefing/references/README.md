@@ -12,4 +12,4 @@
 也可以顺手参考：
 
 - [模板 Skill](../../skill-template/SKILL.md)
-- [Skill 开发总指南](../../../SKILL-DEV-GUIDE.md)
+- [Skill 开发总指南](../../../04-创建Skill/SKILL-DEV-GUIDE.md)
