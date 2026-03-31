@@ -1,10 +1,8 @@
 ---
 name: find-skill
 description: |
-  搜索外部 Skill 和解决方案。在用户想要开发新功能时，
-  先搜索是否有现成方案，避免重复造轮子。
-  本技能应在用户要求"找找有没有类似的 skill"、
-  "搜索 XXX 功能"、或开始新项目之前触发。
+  搜索外部 Skill 的安装与使用引导。本技能应在用户准备开发新功能、想先查有没有现成 Skill、或需要了解独立 find-skills 项目如何接入时使用。
+  不要用于：伪造搜索结果、替代真实的 Skills CLI 搜索、或在没有验证来源的情况下直接推荐第三方项目。
 metadata:
   openclaw:
     emoji: "🔍"
@@ -23,6 +21,8 @@ metadata:
 
 在动手开发前，先搜搜有没有现成方案。
 
+> 注意：本目录是**使用引导**，不是外部 `find-skills` 项目的源码仓库。
+
 ## 什么时候用
 
 当用户说：
@@ -34,12 +34,29 @@ metadata:
 
 **核心原则：先搜，再做。**
 
-## Skills CLI 是什么
+## 先决定你用哪种搜索方式
 
-Skills CLI（`npx skills`）是 Agent Skill 生态的包管理器。Skill 就是模块化的能力包，
-每个 Skill 包含 specialized knowledge、workflows 和 tools。
+### 方式一：直接使用 Skills CLI
 
-**核心命令：**
+Skills CLI（`npx skills`）可以直接搜索：
+
+```bash
+npx skills find [关键词]
+```
+
+### 方式二：先安装独立 `find-skills` 项目
+
+如果你的团队工作流依赖独立 Skill 版本，请先按所选仓库 README 安装：
+
+```bash
+npx skills add <仓库地址> --skill find-skills -g -y
+```
+
+安装完成后，再按对应项目的说明调用它。
+
+## Skills CLI 常用命令
+
+`npx skills` 是 Agent Skill 生态的包管理器。Skill 是模块化能力包，每个 Skill 包含 specialized knowledge、workflows 和 tools。
 
 | 命令 | 作用 |
 |------|------|
@@ -156,4 +173,4 @@ npx skills init my-xyz-skill
 
 - [Skills.sh 市场](https://skills.sh/)
 - [Vercel Skills 官方仓库](https://github.com/vercel-labs/skills)
-- [本项目 Skill 开发规范](../SKILL-DEV-GUIDE.md)
+- [本项目 Skill 开发规范](../../SKILL-DEV-GUIDE.md)
