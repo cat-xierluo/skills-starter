@@ -241,7 +241,7 @@
 1. 先看 [03-Skill-官方编写指南.md](./03-Skill-官方编写指南.md)
 2. 再看 [10-Claude-Skill-最佳实践清单.md](./10-Claude-Skill-最佳实践清单.md)
 3. 然后按本文里的官方原始资料顺序阅读
-4. 接着看 [SKILL-DEV-GUIDE.md](../SKILL-DEV-GUIDE.md)
+4. 接着看 [04-创建Skill/SKILL-DEV-GUIDE.md](../04-创建Skill/SKILL-DEV-GUIDE.md)
 5. 最后回到模板和示例：
    - [skills/skill-template/SKILL.md](../skills/skill-template/SKILL.md)
    - [skills/weekly-weather-briefing/SKILL.md](../skills/weekly-weather-briefing/SKILL.md)

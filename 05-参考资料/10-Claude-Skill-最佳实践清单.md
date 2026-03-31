@@ -180,7 +180,7 @@ Skill 可组合，但不代表一个 Skill 应该什么都做。
 2. [Claude 官方 Skill 资料导航](./08-Claude-官方-Skill-资料导航.md)
 3. [Skill 编写官方指南](./03-Skill-官方编写指南.md)
 4. [Claude Code 上下文与记忆](./09-Claude-Code-上下文与记忆.md)
-5. [SKILL-DEV-GUIDE.md](../SKILL-DEV-GUIDE.md)
+5. [04-创建Skill/SKILL-DEV-GUIDE.md](../04-创建Skill/SKILL-DEV-GUIDE.md)
 
 ---
 
