@@ -55,3 +55,7 @@ output/
 # Project collaboration docs (AI context, not for tracking)
 docs/
 status/
+
+# CLAUDE.md — only root-level is tracked; ignore all others
+**/CLAUDE.md
+!CLAUDE.md
